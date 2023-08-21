@@ -11,7 +11,7 @@ services:
     networks:
       - app-network  
   product-frontend:
-    image: pwalendz81/pwalendz81/front-medicine-app1.0
+    image: pwalendz81/front-medicine-app1.0
     container_name: front-end-app
     ports:
       - "84:80"
